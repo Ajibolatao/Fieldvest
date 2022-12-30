@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mw-50px {
+  max-width: 50px;
+}
+
+.mw-300px {
+  max-width: 300px !important;
+}
+
+.mw-500px {
+  max-width: 500px !important;
+}
+
+.w-300px {
+  width: 300px;
+}
+
+.w-400px {
+  width: 400px;
+}
+
+.w-500px {
+  width: 500px;
+}
+
+.h-70px {
+  height: 70px;
+}
+
+.h-200px {
+  height: 200px;
+}
+
+.h-400px {
+  height: 400px;
+}
+
+.mh-200px {
+  min-height: 200px;
+}
+
+.mh-350px {
+  min-height: 350px;
+}
+
+.mh-400px {
+  min-height: 400px;
+}
+
+.mh-500px {
+  min-height: 500px !important;
+}
+
+.c-primary {
+  color: rgb(4, 83, 4);
+}
+
+.c-primary-light {
+  color: rgb(85, 231, 85);
+}
+
+.bg-primary {
+  background-color: rgb(4, 83, 4);
+}
+
+.bg-primary-light {
+  background-color: rgb(85, 231, 85);
+}
+
+ul {
+  list-style: none;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.fs-1-2 {
+  font-size: 1.2rem;
+}
+
+.fs-2 {
+  font-size: 2rem;
+}
+
+.lh-2 {
+  line-height: 2;
+}
+
+.slanted {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 0.95rem !important;
+}
+body .home-page .first-section .carousel .carousel1 {
+  background: url("/img/hero1.webp") !important;
+}
+body .home-page .first-section .carousel .carousel2 {
+  background: url("/img/hero2.webp") !important;
+}
+body .home-page .first-section .carousel .carousel3 {
+  background: url("/img/hero3.webp") !important;
+}
+body .home-page .first-section .carousel .carousel-item {
+  height: 500px !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  box-shadow: inset 0 0 0 2000px rgba(5, 34, 13, 0.712);
+  background-position: center !important;
+}
+body .home-page .second-section .left .top {
+  font-size: 1.3rem;
+}
+body .home-page .third-section {
+  background: url("/img/hero1.webp") !important;
+  background-size: cover !important;
+  box-shadow: inset 0 0 0 2000px rgba(5, 34, 13, 0.637);
+  background-attachment: fixed !important;
+  background-position: center !important;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .home-page .third-section .top .c-primary {
+  font-size: 2rem;
+  color: rgb(85, 231, 85);
+}
+body .home-page .third-section .top :nth-child(2) {
+  font-size: 1.5rem;
+}
+body .home-page .third-section .bottom {
+  gap: 1rem;
+}
+body .home-page .third-section .bottom ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 10px 0;
+}
+@media only screen and (min-width: 768px) {
+  body .home-page .third-section .bottom {
+    display: flex;
+  }
+}
+body .home-page .fourth-section .top {
+  font-size: 2rem;
+  color: rgb(85, 231, 85);
+}
+body .home-page .fourth-section .bottom .row li {
+  display: flex;
+  gap: 10px;
+  padding: 1rem 0;
+}
+body .home-page .fourth-section .bottom .row li span {
+  color: white;
+  background-color: rgb(4, 83, 4);
+  border: 0 solid rgb(4, 83, 4);
+  padding: 5px;
+  border-radius: 50%;
+}
+body .home-page .fourth-section .bottom .row li .top2 {
+  font-size: 1.2rem;
+  padding: 0 0 10px 0;
+}
+body .home-page .fifth-section {
+  background: url("/img/hero1.webp") !important;
+  background-size: cover !important;
+  box-shadow: inset 0 0 0 2000px rgba(5, 34, 13, 0.637);
+  background-attachment: fixed !important;
+  background-position: center !important;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1rem;
+}
+body .home-page .fifth-section .quote > span {
+  font-size: 4rem;
+}
+body .home-page .fifth-section .name {
+  font-size: 1.4rem;
+}
+body .home-page .seventh-section .left {
+  font-size: 2rem;
+}
+body .about-page .first-section {
+  background: url("/img/shapes.webp") !important;
+  background-size: cover !important;
+  box-shadow: inset 0 0 0 2000px rgba(3, 24, 9, 0.651);
+  background-position: center !important;
+}
+body .about-page .third-section .slanted {
+  background: url("/img/hero1.webp") !important;
+  box-shadow: inset 0 0 0 2000px rgba(5, 34, 13, 0.678);
+  background-attachment: fixed !important;
+  background-position: center !important;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+}
+body .savings-page .first-section, body .loans-page .first-section {
+  background: url("/img/shapes.webp") !important;
+  background-size: cover !important;
+  box-shadow: inset 0 0 0 2000px rgba(3, 24, 9, 0.651);
+  background-position: center !important;
+}
+body .footer .top {
+  background-color: rgb(43, 41, 41);
+  color: rgb(230, 233, 236);
+}
+body .footer .top .row .col .bottom {
+  font-size: 0.9rem;
+}
+body .footer .top .row .col .bottom ul li {
+  padding: 3px 0;
+}
+body .footer .top .row .col .bottom ul li a {
+  color: white !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease-in-out;
+}
+body .footer .top .row .col .bottom ul li a:hover {
+  color: rgb(4, 83, 4) !important;
+}
+body .footer > .bottom {
+  font-size: 0.9rem;
+  background-color: rgb(19, 18, 18);
+}
+body .footer > .bottom a {
+  color: white !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease-in-out;
+}
+body .footer > .bottom a:hover {
+  color: rgb(4, 83, 4) !important;
+}/*# sourceMappingURL=style.css.map */
