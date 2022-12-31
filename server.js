@@ -30,9 +30,13 @@ app.use(methodOverride("_method"));
 
 // IMPORT ROUTES
 import main from './routes/main.js'
+import auth from './routes/auth.js'
+import blog from './routes/blog.js'
 
 // USE ROUTES
 app.use('/', main)
+app.use('/', auth)
+app.use('/blog', blog)
 
 
 // APP LISTEN

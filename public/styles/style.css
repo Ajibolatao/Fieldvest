@@ -14,7 +14,15 @@
 }
 
 .mw-500px {
-  max-width: 500px !important;
+  min-width: 500px !important;
+}
+
+.min-w-500px {
+  min-width: 500px !important;
+}
+
+.min-w-600px {
+  min-width: 600px !important;
 }
 
 .w-300px {
@@ -94,6 +102,29 @@ ul {
 .slanted {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+}
+
+.ununderline {
+  text-decoration: none;
+}
+
+.ununderline:hover {
+  color: rgb(85, 231, 85);
+}
+
+.current {
+  color: white !important;
+  background: green;
+  border-radius: 10px;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background: green !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
 body {
@@ -207,7 +238,7 @@ body .about-page .third-section .slanted {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
 }
-body .savings-page .first-section, body .loans-page .first-section {
+body .savings-page .first-section, body .loans-page .first-section, body .contact-page .first-section {
   background: url("/img/shapes.webp") !important;
   background-size: cover !important;
   box-shadow: inset 0 0 0 2000px rgba(3, 24, 9, 0.651);
