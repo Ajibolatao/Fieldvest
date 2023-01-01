@@ -49,7 +49,7 @@
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle <%= current === 'savings' || current === 'loans' ? 'current' : null %> "
                 data-bs-toggle="dropdown"
                 href="#"
                 role="button"
@@ -57,27 +57,27 @@
                 >Product & Services</a
               >
               <ul class="dropdown-menu">
-                <li>
+                <li class="<%= current === 'savings' && 'current' %>">
                   <a
-                    class="dropdown-item <%= current === 'savings' && 'current' %>"
+                    class="dropdown-item "
                     href="/savings"
                     >Savings</a
                   >
                 </li>
-                <li>
+                <li class="<%= current === 'loans' && 'current' %>">
                   <a
-                    class="dropdown-item <%= current === 'loans' && 'current' %>"
+                    class="dropdown-item "
                     href="/loans"
                     >Loans</a
                   >
                 </li>
-                <li>
+                <!-- <li>
                   <a
                     class="dropdown-item <%= current === 'others' && 'current' %>"
                     href="/others"
                     >Other Services</a
                   >
-                </li>
+                </li> -->
               </ul>
             </li>
             <li class="nav-item">

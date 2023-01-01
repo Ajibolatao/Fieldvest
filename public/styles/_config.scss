@@ -18,7 +18,7 @@ $primary-light-color: rgb(85, 231, 85);
   max-width: 300px !important;
 }
 .mw-500px {
-  min-width: 500px !important;
+  max-width: 500px !important;
 }
 .min-w-500px {
   min-width: 500px !important;
@@ -60,10 +60,10 @@ $primary-light-color: rgb(85, 231, 85);
 }
 
 .c-primary {
-  color: $primary-color;
+  color: $primary-color !important;
 }
 .c-primary-light {
-  color: $primary-light-color;
+  color: $primary-light-color !important;
 }
 .bg-primary {
   background-color: $primary-color;
@@ -130,13 +130,21 @@ ul {
 
 .current {
   color: white !important;
-  background: green;
-  border-radius: 10px ;
+  background: green !important;
+  border-radius: 5px ;
+  padding: 0.5rem !important;
+}
+
+.current > .dropdown-item {
+  color: white !important;
 }
 
 .dropdown-item.active, .dropdown-item:active {
   background: green !important;
+  color: white !important;
+  
 }
+
 
 
 // Hide up and down arrow on input['number]

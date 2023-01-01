@@ -14,7 +14,7 @@
 }
 
 .mw-500px {
-  min-width: 500px !important;
+  max-width: 500px !important;
 }
 
 .min-w-500px {
@@ -66,11 +66,11 @@
 }
 
 .c-primary {
-  color: rgb(4, 83, 4);
+  color: rgb(4, 83, 4) !important;
 }
 
 .c-primary-light {
-  color: rgb(85, 231, 85);
+  color: rgb(85, 231, 85) !important;
 }
 
 .bg-primary {
@@ -114,12 +114,18 @@ ul {
 
 .current {
   color: white !important;
-  background: green;
-  border-radius: 10px;
+  background: green !important;
+  border-radius: 5px;
+  padding: 0.5rem !important;
+}
+
+.current > .dropdown-item {
+  color: white !important;
 }
 
 .dropdown-item.active, .dropdown-item:active {
   background: green !important;
+  color: white !important;
 }
 
 input::-webkit-outer-spin-button,
